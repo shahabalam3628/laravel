@@ -12,6 +12,13 @@ class student_controller extends Controller
 {
     
 
+public function jqueyvalidation()
+{
+	return view('blade_files.jqueryValidationDemo');
+	
+}	
+	
+	
 public function forloop_demo()
 {
   return view('blade_files.forloop_demo');

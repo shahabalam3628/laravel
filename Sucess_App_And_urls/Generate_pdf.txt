@@ -1,0 +1,1 @@
+https://www.webslesson.info/2018/06/laravel-how-to-generate-dynamic-pdf-from-html-using-dompdf.html

@@ -152,6 +152,28 @@
         <td><a href="{{url('for-loop-demo')}}">Demo</a></td>
         <td><a href="">View Steps</a></td>
       </tr>
+	  
+	  
+	  <tr>
+        <td>13</td>
+        <td>Validation using jquery</td>
+        <td><a href="{{url('jqueyvalidation')}}">Demo</a></td>
+        <td><a href="">View Steps</a></td>
+      </tr>
+	  
+	 <tr>
+        <td>13</td>
+        <td>Generate PDF</td>
+        <td><a href="{{url('dynamic_pdf')}}">Demo</a></td>
+        <td><a href="">View Steps</a></td>
+      </tr>
+	  
+	 <tr>
+        <td>13</td>
+        <td>Generate PDF</td>
+        <td><a href="{{url('generate-pdf')}}">Demo</a></td>
+        <td><a href="">View Steps</a></td>
+      </tr>
 
     </tbody>
   </table>

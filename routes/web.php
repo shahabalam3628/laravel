@@ -12,6 +12,28 @@
 */
 
 
+
+Route::get('/dynamic_pdf', 'DynamicPDFController@index');
+
+Route::get('/dynamic_pdf/pdf', 'DynamicPDFController@pdf');
+
+
+Route::get('generate-pdf','PdfDemo@generatePDF');
+
+Route::get('/customers/pdf','CustomerController@export_pdf');
+
+
+
+//jquery validation-demo
+Route::get('jqueyvalidation','student_controller@jqueyvalidation');
+
+
+
+
+
+
+
+
 //Request Class Form Validation Demo.
 Route::get('form-validation-demo','FormValidationDemo@index');
 Route::get('formData','FormValidationDemo@formData');
