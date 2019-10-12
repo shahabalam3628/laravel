@@ -174,6 +174,22 @@
         <td><a href="{{url('generate-pdf')}}">Demo</a></td>
         <td><a href="">View Steps</a></td>
       </tr>
+	  
+	  
+	 <tr>
+        <td>13</td>
+        <td>Upload Image</td>
+        <td><a href="{{url('')}}">Demo</a></td>
+        <td><a href="">View Steps</a></td>
+      </tr>
+	  
+	  	 <tr>
+        <td>13</td>
+        <td>Working with Form Blade</td>
+        <td><a href="{{url('')}}">Demo</a></td>
+        <td><a href="">View Steps</a></td>
+      </tr>
+	  
 
     </tbody>
   </table>

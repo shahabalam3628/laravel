@@ -13,13 +13,21 @@
 
 
 
-Route::get('/dynamic_pdf', 'DynamicPDFController@index');
 
+//Upload images
+Route::get('image-upload',['as'=>'image.upload','uses'=>'ImageUploadController@imageUpload']);
+Route::post('image-upload',['as'=>'image.upload.post','uses'=>'ImageUploadController@imageUploadPost']);
+
+
+
+
+//Generate Pdf 
+
+Route::get('/dynamic_pdf', 'DynamicPDFController@index');
 Route::get('/dynamic_pdf/pdf', 'DynamicPDFController@pdf');
 
 
 Route::get('generate-pdf','PdfDemo@generatePDF');
-
 Route::get('/customers/pdf','CustomerController@export_pdf');
 
 

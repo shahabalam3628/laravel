@@ -165,6 +165,7 @@ return [
         Illuminate\View\ViewServiceProvider::class,
 		Mews\Captcha\CaptchaServiceProvider::class,
 		Barryvdh\DomPDF\ServiceProvider::class,
+		Collective\Html\HtmlServiceProvider::class,
 
         /*
          * Package Service Providers...
@@ -229,6 +230,8 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
 		'Captcha' => Mews\Captcha\Facades\Captcha::class,
 		'PDF' => Barryvdh\DomPDF\Facade::class,
+		'Form' => Collective\Html\FormFacade::class,
+        'Html' => Collective\Html\HtmlFacade::class,
 
     ],
 
